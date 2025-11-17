@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom, #ffffff, #9b9b9b);
+    color: #333;
+}
+
+.resume-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    background: rgb(212, 212, 212);
+    box-shadow: 0 0 250px rgba(0,0,0,.3);
+}
+
+.left-column {
+    width: 32%;
+    background: #ffffff;
+    padding: 30px;
+}
+
+.profile-pic img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.left-column h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.left-column h2 span {
+    font-weight: bold;
+}
+
+.job-title {
+    text-align: center;
+    color: #007c85;
+    margin-bottom: 20px;
+}
+
+.left-column h4 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #007c85;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+
+.left-column ul {
+    padding-left: 18px;
+}
+
+.left-column li {
+    margin-bottom: 5px;
+}
+
+.right-column {
+    width: 68%;
+    padding: 40px;
+}
+
+.right-column h3 {
+    border-bottom: 3px solid #007c85;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.job-block, .edu-block {
+    margin-bottom: 25px;
+}
+
+.job-block h4, .edu-block h4 {
+    margin-bottom: 5px;
+}
+
+.job-title, .location {
+    color: #555;
+    margin: 2px 0;
+}
+
+.job-block ul {
+    margin-top: 8px;
+    padding-left: 18px;
+}
+
+@media (max-width: 768px) {
+    .resume-container {
+        flex-direction: column;
+    }
+    .left-column, .right-column {
+        width: 100%;
+    }
+}
