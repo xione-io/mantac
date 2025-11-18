@@ -90,13 +90,14 @@ body {
 table{
     width: 100%;
     border-collapse: collapse;
-    background: rgba (255, 255, 255, .5);
+    background: rgb(255, 255, 255);
     overflow: hidden;
 }
 thead th{
     text-align: left;
     padding: 10px;
-    background: grey;
+    color: black;
+    background: rgba(255,255,255, 0.3);
     font-weight: 600;
     border-bottom: 1px solid rgba(0,0,0,1);
 }
@@ -115,5 +116,6 @@ tbody td{
     }
 
 }
+
 
 
