@@ -96,7 +96,7 @@ table{
 thead th{
     text-align: left;
     padding: 10px;
-    background: #add8e6;
+    background: #e5f3fd;
     font-weight: 600;
     border-bottom: 1px solid rgba(0,0,0,1);
 }
@@ -115,6 +115,7 @@ tbody td{
     }
 
 }
+
 
 
 
