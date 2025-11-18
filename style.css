@@ -87,6 +87,25 @@ body {
     padding-left: 18px;
 }
 
+table{
+    width:100%;
+    border-collapse:collapse;
+    background: yellow;
+    overflow:hidden;
+}
+thead th{
+    text-align:left;
+    padding:10px;
+    background: grey;
+    font-weight:600;
+    border-bottom:1px solid rgba(0,0,0,1);
+}
+tbody td{
+    padding:10px;
+    color:var(--muted);
+    border-bottom:1px solid rgba(0,0,0,1);
+}
+
 @media (max-width: 768px) {
     .resume-container {
         flex-direction: column;
@@ -94,4 +113,5 @@ body {
     .left-column, .right-column {
         width: 100%;
     }
+
 }
